@@ -2,30 +2,34 @@
   text-align: left;
 }
 
-h1.app {
-  font-weight: 600;
-  color: #161616;
-  font-size: 2em;
+.accent-text {
+  color: #699CFF;
 }
 
-h2.app {
-  font-weight: 500;
-  color: #161616;
-  font-size: 1.5em;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-h3.app {
-  color: #161616;
-  font-size: 1.17em;
+li {
+  float: left;
 }
 
-h4.app {
+li a {
   color: #161616;
-  font-size: 1em;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
 }
 
-p.app {
-  font-weight: 300;
-  color: #161616;
-  font-size: 1em;
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+
 }
+
+
