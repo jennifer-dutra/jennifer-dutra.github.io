@@ -1,6 +1,6 @@
 // Home.js
 import React, { Component } from 'react';
-import computer from '../assets/computer.svg';
+import computer from '../../assets/images/computer.svg';
 import './Home.css';
 
 class Home extends Component {
@@ -20,7 +20,7 @@ class Home extends Component {
           </div>
         </div>
         <div className="projects">
-          <h2>projects</h2> 
+          <h2>my work</h2> 
         </div>
       </div>
         
