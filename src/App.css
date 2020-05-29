@@ -2,8 +2,12 @@
   text-align: left;
 }
 
-.accent-text {
-  color: #699CFF;
+:root {
+  --blue: #699CFF;
+  --orange: #F3BB88;
+  --pink: #F388C1;
+  --mint: #8E9DFD;
+  --lavender: #8E9DFD;
 }
 
 ul {
@@ -13,8 +17,12 @@ ul {
   overflow: hidden;
 }
 
-li {
+.home-link {
   float: left;
+}
+
+li {
+  float: right;
 }
 
 li a {
@@ -29,7 +37,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-
+  background-color: 
 }
 
 

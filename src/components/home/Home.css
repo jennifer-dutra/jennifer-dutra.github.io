@@ -21,6 +21,16 @@
     padding: 10% 0% 10% 0%;
 }
 
+.accent-txt {
+    color: #699CFF;
+}
+
+.underlined {
+    padding-bottom: 2%;
+    border-bottom: 3px solid black;
+    width: 5em;
+    font-size: 1.75em;
+}
 
 .blue-button {
     background-color: #E1EBFF; 
@@ -28,11 +38,11 @@
     border: none;
     color: #699CFF;
     font-weight: 600;
-    padding: 10px 20px;
-    margin: 15px 0px 15px 0px;
+    padding: 2% 4%;
+    margin: 4% 0% 4% 0%;
     width: fit-content;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 1.25em;
   }

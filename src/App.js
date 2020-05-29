@@ -10,11 +10,12 @@ class App extends Component {
       <Router>
       <div> 
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <ul className="navbar-nav mr-auto">
-          <li><Link to={'/'} className="nav-link"> Jen Dutra </Link></li>
-          <li><Link to={'/'} className="nav-link"> portfolio </Link></li>
-          <li><Link to={'/about'} className="nav-link">about</Link></li>
-        </ul>
+          <ul className="navbar-nav ml-auto">
+            <li className="home-link"><Link to={'/'} className="nav-link"> Jen Dutra </Link></li>
+            <li><Link to={'/'} className="nav-link">resume</Link></li>
+            <li><Link to={'/about'} className="nav-link">about</Link></li>
+            <li><Link to={'/'} className="nav-link"> portfolio </Link></li>
+          </ul>
         </nav>
         <Switch>
             <Route exact path='/' component={Home} />
