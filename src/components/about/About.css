@@ -1,0 +1,23 @@
+.about-txt {
+    padding: 10%; 
+}
+
+.flex-container {
+    display: flex;
+}
+
+.description {
+    line-height: 2em;
+    flex-direction: row;
+}
+
+.picture {
+    flex-direction: row;
+}
+
+.profile-pic {
+    max-width: 300px;
+    margin-left: 20%;
+    border: 10px solid #E1EBFF;
+    border-radius: 10%;
+}
