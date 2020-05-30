@@ -1,0 +1,46 @@
+.prj-img {
+}
+
+.prj-title {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.prj-desc {
+    font-size: 1.25em;
+    font-weight: 200;
+}
+
+.tool-list {
+    margin-bottom: 5%;
+}
+
+.blue {
+    background-color: #E1EBFF; 
+    border-radius: 24px;
+    border: none;
+    color: var(--blue);
+    font-weight: 600;
+    padding: 2% 4%;
+    margin: 2% 2% 4% 0%;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+  }
+
+  .pink {
+    background-color: #FFCFE9; 
+    border-radius: 24px;
+    border: none;
+    color: var(--pink);
+    font-weight: 600;
+    padding: 2% 4%;
+    margin: 2% 2% 4% 0%;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+  }

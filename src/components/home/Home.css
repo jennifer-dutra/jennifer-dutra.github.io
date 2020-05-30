@@ -46,3 +46,16 @@
     display: inline-block;
     font-size: 1.25em;
   }
+
+
+.projects {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.prj {
+    flex-direction: row;
+}

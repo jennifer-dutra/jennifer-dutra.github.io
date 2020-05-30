@@ -1,6 +1,7 @@
 // Home.js
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import ProjectCard from '../project-card/Project-card.js'
 import computer from '../../assets/images/computer.svg';
 import './Home.css';
 import Fade from 'react-reveal/Fade';
@@ -26,17 +27,25 @@ class Home extends Component {
           </div>
           <Fade>
             <div className="hero-img">
-              <img src={computer} alt={""}/> 
+              <img src={computer} alt={"illustration of a computer"}/> 
             </div>
           </Fade>
         </div>
+
         <Fade down delay={1700}>
-          <div className="projects">
-            <h2>my work</h2> 
+          <div className="">
+            <h2>portfolio</h2> 
           </div>
         </Fade>
+
+        <div className="projects">
+         <ProjectCard className="prj" color={"pink"} img={"boba-cover"} name={"midnight boba"} description={"on-demand boba delivery application"} tools={["dev", "design"]}></ProjectCard>
+         <ProjectCard className="prj" color={"pink"} img={"boba-cover"} name={"midnight boba"} description={"on-demand boba delivery application"} tools={["dev", "design"]}></ProjectCard>
+         <ProjectCard className="prj" color={"pink"} img={"boba-cover"} name={"midnight boba"} description={"on-demand boba delivery application"} tools={["dev", "design"]}></ProjectCard>
+         <ProjectCard className="prj" color={"pink"} img={"boba-cover"} name={"midnight boba"} description={"on-demand boba delivery application"} tools={["dev", "design"]}></ProjectCard>
+        </div>
+
       </div>
-        
     );
   }
 }
