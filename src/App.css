@@ -24,10 +24,13 @@ ul {
 
 .home-link {
   float: left;
+  font-weight: 800;
+  font-size: 1.25em;
+  padding: 1%;
 }
 
 .nav-link {
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .footer {
@@ -84,5 +87,9 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: 
+}
+
+.nav-link:hover {
+  color: var(--blue);
 }
 

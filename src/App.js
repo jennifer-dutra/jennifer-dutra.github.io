@@ -16,10 +16,10 @@ class App extends Component {
       <div> 
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <ul className="navbar-nav ml-auto">
-            <li className="home-link"><Link to={'/'} className="nav-link"> Jen Dutra </Link></li>
+            <li className="home-link">Jen Dutra</li>
             <li><Link to={'/'} className="nav-link">resume</Link></li>
             <li><Link to={'/about'} className="nav-link">about</Link></li>
-            <li><Link to={'/'} className="nav-link"> portfolio </Link></li>
+            <li><Link to={'/'} className="nav-link">home</Link></li>
           </ul>
         </nav>
         <Switch>
