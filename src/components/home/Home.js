@@ -5,6 +5,7 @@ import ProjectCard from '../project-card/Project-card.js'
 import computer from '../../assets/images/computer.svg';
 import './Home.css';
 import Fade from 'react-reveal/Fade';
+import data from '../../data.json';
 
 class Home extends Component {
   render() {
@@ -40,9 +41,14 @@ class Home extends Component {
         </Fade>
 
         <div className="projects">
-         <ProjectCard className="prj" name={"midnight boba"} img={"boba-cover"} color={"pink-label"}  description={"on-demand boba delivery application"} skills={["dev", "design"]}></ProjectCard>
+          {
+            data.projects.map((project, i) => {
+              return (
+                <ProjectCard className="projects" name={project.name} img={project.img} color={project.color} description={project.description} skills={project.skills}></ProjectCard>
+              );
+            }) 
+          }
         </div>
-
       </div>
     );
   }
