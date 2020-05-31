@@ -8,7 +8,7 @@ class ProjectCard extends Component {
   render() {
     return (
         <div>
-          <Fade>
+          <Fade delay={300}>
             <img className="prj-img" src={require('../../assets/images/' + this.props.img + '.png')}></img>
             <h2 className="prj-title">{this.props.name}</h2>
             <p className="prj-desc">{this.props.description}</p>

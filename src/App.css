@@ -20,11 +20,51 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 .home-link {
   float: left;
+}
+
+.nav-link {
+  font-weight: 800;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.made-with {
+  float: left;
+  padding: 1% 2% 2% 2%;
+  font-size: 1.15em;
+}
+
+.heart { 
+  max-width: 8%;
+}
+
+.icon {
+ max-width: 80%;
+}
+
+.icon:hover {
+  max-width: 80%;
+  -moz-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  -o-transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px); 
+}
+
+.icon-pad {
+  float: right;
+  margin-left: 2%;
+  margin-top: 1%;
 }
 
 li {
@@ -45,5 +85,4 @@ li a {
 li a:hover {
   background-color: 
 }
-
 
