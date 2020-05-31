@@ -16,8 +16,14 @@
 }
 
 .profile-pic {
-    max-width: 300px;
+    max-width: 350px;
     margin-left: 20%;
-    border: 10px solid #E1EBFF;
+    border: 10px solid var(--blueBack);
     border-radius: 10%;
+}
+
+.blue-link {
+    color: var(--blue);
+    border-bottom: 2px solid var(--blue) ;
+    text-decoration: none;
 }
