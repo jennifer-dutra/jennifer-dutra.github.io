@@ -22,7 +22,7 @@
 }
 
 .accent-txt {
-    color: #699CFF;
+    color: var(--blue);
 }
 
 .underlined {
@@ -36,7 +36,7 @@
     background-color: #E1EBFF; 
     border-radius: 24px;
     border: none;
-    color: #699CFF;
+    color: var(--blue);
     font-weight: 600;
     padding: 2% 4%;
     margin: 4% 0% 4% 0%;

@@ -13,8 +13,8 @@ class ProjectCard extends Component {
             <h2 className="prj-title">{this.props.name}</h2>
             <p className="prj-desc">{this.props.description}</p>
             
-            <div className="tool-list">
-              {this.props.tools.map(element => (
+            <div className="skill-list">
+              {this.props.skills.map(element => (
                 <span className={`${this.props.color}`}>{element}</span>
               ))}
             </div>

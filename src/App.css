@@ -6,8 +6,14 @@
   --blue: #699CFF;
   --orange: #F3BB88;
   --pink: #F388C1;
-  --mint: #8E9DFD;
+  --mint: #8AE9DD;
   --lavender: #8E9DFD;
+
+  --blueBack: #E1EBFF;
+  --orangeBack: #FFE9D6;
+  --pinkBack: #FFCFE9;
+  --mintBack: #E6FDFA;
+  --lavenderBack: #DEE2FF;
 }
 
 ul {

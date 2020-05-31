@@ -11,30 +11,15 @@
     font-weight: 200;
 }
 
-.tool-list {
+.skill-list {
     margin-bottom: 5%;
 }
 
-.blue {
-    background-color: #E1EBFF; 
-    border-radius: 24px;
-    border: none;
+.blue-label {
     color: var(--blue);
-    font-weight: 600;
-    padding: 2% 4%;
-    margin: 2% 2% 4% 0%;
-    width: fit-content;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.25em;
-  }
-
-  .pink {
-    background-color: #FFCFE9; 
+    background-color: var(--blueBack);
     border-radius: 24px;
     border: none;
-    color: var(--pink);
     font-weight: 600;
     padding: 2% 4%;
     margin: 2% 2% 4% 0%;
@@ -43,4 +28,64 @@
     text-decoration: none;
     display: inline-block;
     font-size: 1.25em;
-  }
+}
+
+.pink-label {
+    color: var(--pink);
+    background-color: var(--pinkBack);
+    border-radius: 24px;
+    border: none;
+    font-weight: 600;
+    padding: 2% 4%;
+    margin: 2% 2% 4% 0%;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+}
+
+.lavender-label {
+    color: var(--lavender);
+    background-color: var(--lavenderBack);
+    border-radius: 24px;
+    border: none;
+    font-weight: 600;
+    padding: 2% 4%;
+    margin: 2% 2% 4% 0%;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+}
+
+.orange-label {
+    color: var(--orange);
+    background-color: var(--orangeBack);
+    border-radius: 24px;
+    border: none;
+    font-weight: 600;
+    padding: 2% 4%;
+    margin: 2% 2% 4% 0%;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+}
+
+.mint-label {
+    color: var(--mint);
+    background-color: var(--mintBack);
+    border-radius: 24px;
+    border: none;
+    font-weight: 600;
+    padding: 2% 4%;
+    margin: 2% 2% 4% 0%;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+}

@@ -1,0 +1,35 @@
+{
+    "projects": [
+         {
+            "name": "midnight boba", 
+            "img": "boba-cover",
+            "color": "pink-label",
+            "description": "on-demand boba delivery application",
+            "skills": ["dev", "design"]
+         },
+
+         {
+            "name": "cruzhacks", 
+            "img": "cruzhacks-cover",
+            "color": "lavender-label",
+            "description": "planning UCSC's annual hackathon",
+            "skills": ["experience", "design"]
+         },
+
+         {
+            "name": "wilderness adventure", 
+            "img": "wilderness-cover",
+            "color": "orange-label",
+            "description": "a card game about wilderness survival",
+            "skills": ["design"]
+         },
+
+         {
+            "name": "tech4good", 
+            "img": "tech4good-cover",
+            "color": "blue-label",
+            "description": "HCI undergraduate research",
+            "skills": ["design"]
+         }
+    ]
+}

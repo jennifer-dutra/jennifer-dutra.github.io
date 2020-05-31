@@ -25,6 +25,7 @@ class Home extends Component {
                <Link to={'/about'}><button type="button" className="blue-button">about me</button></Link>
             </Fade>
           </div>
+          
           <Fade>
             <div className="hero-img">
               <img src={computer} alt={"illustration of a computer"}/> 
@@ -39,10 +40,7 @@ class Home extends Component {
         </Fade>
 
         <div className="projects">
-         <ProjectCard className="prj" color={"pink"} img={"boba-cover"} name={"midnight boba"} description={"on-demand boba delivery application"} tools={["dev", "design"]}></ProjectCard>
-         <ProjectCard className="prj" color={"pink"} img={"boba-cover"} name={"midnight boba"} description={"on-demand boba delivery application"} tools={["dev", "design"]}></ProjectCard>
-         <ProjectCard className="prj" color={"pink"} img={"boba-cover"} name={"midnight boba"} description={"on-demand boba delivery application"} tools={["dev", "design"]}></ProjectCard>
-         <ProjectCard className="prj" color={"pink"} img={"boba-cover"} name={"midnight boba"} description={"on-demand boba delivery application"} tools={["dev", "design"]}></ProjectCard>
+         <ProjectCard className="prj" name={"midnight boba"} img={"boba-cover"} color={"pink-label"}  description={"on-demand boba delivery application"} skills={["dev", "design"]}></ProjectCard>
         </div>
 
       </div>
