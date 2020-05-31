@@ -27,3 +27,7 @@
     border-bottom: 2px solid var(--blue) ;
     text-decoration: none;
 }
+
+.blue-link:hover {
+    opacity: 75% !important;
+}

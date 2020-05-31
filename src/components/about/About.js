@@ -5,6 +5,7 @@ import profile from '../../assets/images/about-pic.jpg';
 import Fade from 'react-reveal/Fade';
 import './About.css';
 import '../home/Home.css';
+import pdf from '../../Resume-5-2020.pdf';
 
 class About extends Component {
   render() {
@@ -31,7 +32,7 @@ class About extends Component {
                   </p>
                 </Fade>
                 <Fade down delay={600} distance={"0.5em"}>
-                  <button type="button" className="blue-button">resume</button>
+                  <a href={pdf}><button type="button" className="blue-button">resume</button></a>
                 </Fade>
               </div>
               <Fade down delay={300} distance={"0.5em"}>

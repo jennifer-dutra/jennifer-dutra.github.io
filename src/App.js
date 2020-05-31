@@ -8,6 +8,7 @@ import linkedin from './assets/icons/linkedin.svg';
 import github from './assets/icons/github.svg';
 import mail from './assets/icons/mail.svg';
 import Pulse from 'react-reveal/Pulse';
+import pdf from './Resume-5-2020.pdf';
 
 class App extends Component {
   render() {
@@ -17,7 +18,7 @@ class App extends Component {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <ul className="navbar-nav ml-auto">
             <li className="home-link">Jen Dutra</li>
-            <li><Link to={'/'} className="nav-link">resume</Link></li>
+            <li><a href={pdf} className="nav-link">resume</a></li>
             <li><Link to={'/about'} className="nav-link">about</Link></li>
             <li><Link to={'/'} className="nav-link">home</Link></li>
           </ul>

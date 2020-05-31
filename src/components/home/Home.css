@@ -50,7 +50,7 @@
   }
 
   .blue-button:hover {
-      opacity: 75%;
+      opacity: 75% !important;
   }
 
 
