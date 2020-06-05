@@ -9,14 +9,16 @@ class ProjectCard extends Component {
     return (
         <div>
           <Fade delay={300}>
-            <img className="prj-img" src={require('../../assets/images/' + this.props.img + '.png')}></img>
-            <h2 className="prj-title">{this.props.name}</h2>
-            <p className="prj-desc">{this.props.description}</p>
+            <div className="clickable">
+              <img className="prj-img" src={require('../../assets/images/' + this.props.img + '.png')}></img>
+              <h2 className="prj-title">{this.props.name}</h2>
+              <p className="prj-desc">{this.props.description}</p>
             
-            <div className="skill-list">
-              {this.props.skills.map(element => (
-                <span className={`${this.props.color}`}>{element}</span>
-              ))}
+              <div className="skill-list">
+                {this.props.skills.map(element => (
+                  <span className={`${this.props.color}`}>{element}</span>
+                ))}
+              </div>
             </div>
           </Fade>
         </div>

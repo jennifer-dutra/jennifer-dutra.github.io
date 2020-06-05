@@ -62,6 +62,10 @@
     padding: 5%;
 }
 
+.link-style {
+    text-decoration: none;
+}
+
 .prj {
     flex-direction: row;
 }

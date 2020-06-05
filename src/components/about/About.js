@@ -28,7 +28,7 @@ class About extends Component {
                     This past summer, I interned on the <a className="blue-link" href="https://www.microsoft.com/en-us/">Microsoft</a> Word team, and I'm excited to return to Microsoft in 2021 as a full-time software engineer!
                     In 2020, I had the amazing opportunity to run the <a className="blue-link" href="https://www.cruzhacks.com/">CruzHacks</a> organization, which plans UCSC's annual hackathon.
                     <br></br><br></br>
-                    In my free time I love to do <a className="blue-link" href="https://www.flickr.com/people/jenniferdutra/">portrait photography</a>, go to the beach, try new cuisines, and grab milk tea with friends.
+                    In my free time I love to do <a className="blue-link" href="https://www.flickr.com/people/jenniferdutra/">portrait photography</a>, go bouldering, visit the beach, try new cuisines, and grab milk tea with friends.
                   </p>
                 </Fade>
                 <Fade down delay={600} distance={"0.5em"}>

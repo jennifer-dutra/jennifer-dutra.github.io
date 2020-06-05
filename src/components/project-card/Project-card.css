@@ -1,9 +1,18 @@
-.prj-img {
+.prj-img:hover {
+    cursor: pointer;
 }
 
 .prj-title {
     font-weight: 600;
     font-size: 2em;
+}
+
+.prj-title:hover {
+    cursor: pointer;
+}
+
+.clickable:hover {
+    opacity: 50% !important;
 }
 
 .prj-desc {
