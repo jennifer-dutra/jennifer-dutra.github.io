@@ -32,9 +32,11 @@ class App extends Component {
       <footer className="footer">
         <ul>
           <li className="made-with">made with <Pulse forever delay={500}><img className="heart" src={heart}/></Pulse>  by jennifer dutra</li>
-          <a href="https://github.com/jennifer-dutra"><li className="icon-pad"><img className="icon" src={github}/></li></a>
-          <a href="mailto:jrdutra@ucsc.edu"><li className="icon-pad"><img className="icon" src={mail}/></li></a>
-          <a href="https://www.linkedin.com/in/jennifer-dutra/"><li className="icon-pad"><img className="icon" src={linkedin}/></li></a>
+          <div className="icons">
+            <a href="https://github.com/jennifer-dutra"><li className="icon-pad"><img className="icon" src={github}/></li></a>
+            <a href="mailto:jrdutra@ucsc.edu"><li className="icon-pad"><img className="icon" src={mail}/></li></a>
+            <a href="https://www.linkedin.com/in/jennifer-dutra/"><li className="icon-pad"><img className="icon" src={linkedin}/></li></a>
+          </div>
         </ul>
       </footer>
     </Router>

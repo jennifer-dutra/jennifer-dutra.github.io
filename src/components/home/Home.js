@@ -44,7 +44,7 @@ class Home extends Component {
           {
             data.projects.map((project, i) => {
               return (
-                <Link className="link-style" to={'/'}>
+                <Link className="link-style" to={'/' + project.name}>
                   <ProjectCard className="projects" name={project.name} img={project.img} color={project.color} description={project.description} skills={project.skills}></ProjectCard>
                 </Link>
               );
