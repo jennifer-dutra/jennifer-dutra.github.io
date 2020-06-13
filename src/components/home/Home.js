@@ -12,6 +12,13 @@ class Home extends Component {
     return (
       <div className="container">
         <div className="hero">
+
+          <Fade>
+            <div className="hero-img">
+              <img src={computer} alt={"illustration of a computer"}/> 
+            </div>
+          </Fade>
+
           <div className="hero-txt">
             <Fade down>
               <h3 className="underlined">Hi I'm Jen</h3>
@@ -26,12 +33,6 @@ class Home extends Component {
                <Link to={'/about'}><button type="button" className="blue-button">about me</button></Link>
             </Fade>
           </div>
-          
-          <Fade>
-            <div className="hero-img">
-              <img src={computer} alt={"illustration of a computer"}/> 
-            </div>
-          </Fade>
         </div>
 
         <Fade down delay={1700}>

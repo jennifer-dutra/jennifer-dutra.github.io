@@ -7,6 +7,7 @@ import heart from './assets/icons/heart.svg';
 import linkedin from './assets/icons/linkedin.svg';
 import github from './assets/icons/github.svg';
 import mail from './assets/icons/mail.svg';
+import menu from './assets/icons/menu.svg';
 import Pulse from 'react-reveal/Pulse';
 import pdf from './Resume-5-2020.pdf';
 
@@ -23,6 +24,9 @@ class App extends Component {
             <li><Link to={'/'} className="nav-link">home</Link></li>
           </ul>
         </nav>
+        <div className="mobileNav">
+              <img src={menu}></img>
+        </div>
         <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/about' component={About} />

@@ -34,7 +34,6 @@ ul {
 }
 
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -93,6 +92,12 @@ li a:hover {
   color: var(--blue);
 }
 
+@media only screen and (min-width: 600px) {
+  .mobileNav {
+    display: none;
+  }
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
   .made-with {
@@ -113,6 +118,18 @@ li a:hover {
   .icons {
     display: flex;
     flex-direction: row;
+  }
+
+  .home-link {
+    display: none;
+  }
+
+  .nav-link {
+    display: none;
+  }
+
+  .mobileNav {
+    float: right;
   }
 }
 
