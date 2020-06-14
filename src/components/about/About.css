@@ -4,15 +4,11 @@
 
 .flex-container {
     display: flex;
+    flex-direction: row;
 }
 
 .description {
     line-height: 2em;
-    flex-direction: row;
-}
-
-.picture {
-    flex-direction: row;
 }
 
 .profile-pic {
@@ -30,4 +26,17 @@
 
 .blue-link:hover {
     opacity: 75% !important;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+   .flex-container {
+       flex-direction: column-reverse;
+   }
+
+   .profile-pic {
+       width: 100%;
+       margin: 20px 0px 20px 0px;
+    
+   }
 }

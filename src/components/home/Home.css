@@ -53,6 +53,10 @@ img {
     opacity: 75% !important;
 }
 
+.portfolio {
+    margin: 0% 5% 0% 5%;
+}
+
 
 .projects {
     display: flex;

@@ -12,6 +12,35 @@ import Pulse from 'react-reveal/Pulse';
 import pdf from './Resume-5-2020.pdf';
 
 class App extends Component {
+  container = React.createRef();
+  state = {
+    open: false,
+  };
+
+  handleButtonClick = () => {
+    this.setState(state => {
+      return {
+        open: !state.open,
+      };
+    });
+  };
+
+  handleClickOutside = event => {
+    if (this.container.current && !this.container.current.contains(event.target)) {
+      this.setState({
+        open: false,
+      });
+    }
+  };
+
+  componentDidMount() {
+    document.addEventListener("mousedown", this.handleClickOutside);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener("mousedown", this.handleClickOutside);
+  }
+
   render() {
     return (
       <Router>
@@ -24,9 +53,22 @@ class App extends Component {
             <li><Link to={'/'} className="nav-link">home</Link></li>
           </ul>
         </nav>
-        <div className="mobileNav">
-              <img src={menu}></img>
+
+        <div className="dropdown-container" ref={this.container}>
+          <button className="dropdown-btn" onClick={this.handleButtonClick}>
+                <img src={menu}></img>
+          </button>
+          {this.state.open && (
+          <div class="dropdown">
+            <ul>
+              <li><Link to={'/'}>home</Link></li>
+              <li><Link to={'/about'}>about</Link></li>
+              <li><a href={pdf}>resume</a></li>
+            </ul>
+          </div>
+          )}
         </div>
+        
         <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/about' component={About} />
