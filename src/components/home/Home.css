@@ -28,8 +28,8 @@ img {
 .underlined {
     padding-bottom: 2%;
     border-bottom: 3px solid black;
-    width: 5em;
     font-size: 1.75em;
+    max-width: 150px;
 }
 
 .blue-button {
@@ -61,10 +61,17 @@ img {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-grow: 1;
-    padding: 5%;
+    padding: 5% 10% 10% 10%;
 }
+
+@supports not (-ms-ime-align: auto) {
+    .projects {
+      justify-content: space-evenly;
+      padding: 5%;
+    }
+  }
 
 .link-style {
     text-decoration: none;
