@@ -12,7 +12,7 @@
 }
 
 .clickable:hover {
-    opacity: 50% !important;
+    opacity: 50%;
 }
 
 .prj-desc {
