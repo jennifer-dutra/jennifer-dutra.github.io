@@ -49,10 +49,6 @@ img {
     cursor: pointer;
 }
 
-.blue-button:hover {
-    opacity: 75%;
-}
-
 .portfolio {
     margin: 0% 5% 0% 5%;
 }

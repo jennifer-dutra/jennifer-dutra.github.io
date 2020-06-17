@@ -11,10 +11,6 @@
     cursor: pointer;
 }
 
-.clickable:hover {
-    opacity: 50%;
-}
-
 .prj-desc {
     font-size: 1.25em;
     font-weight: 200;
