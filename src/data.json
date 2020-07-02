@@ -3,6 +3,7 @@
          {
             "name": "midnight boba", 
             "img": "boba-cover",
+            "icon": "boba-logo",
             "color": "pink-label",
             "description": "on-demand boba delivery application",
             "skills": ["dev", "design"]
@@ -11,6 +12,7 @@
          {
             "name": "cruzhacks", 
             "img": "cruzhacks-cover",
+            "icon": "ch-logo",
             "color": "lavender-label",
             "description": "planning UCSC's annual hackathon",
             "skills": ["experience", "design"]
@@ -19,14 +21,18 @@
          {
             "name": "wilderness adventure", 
             "img": "wilderness-cover",
+            "icon": "tech4good",
             "color": "orange-label",
             "description": "a card game about wilderness survival",
-            "skills": ["design"]
+            "descriptionLong": "an original card game about wilderness survival",
+            "skills": ["design"],
+            "tools": ["interaction design", "graphic design", "adobe illustrator"]
          },
 
          {
             "name": "tech4good", 
             "img": "tech4good-cover",
+            "icon": "wilderness-logo",
             "color": "blue-label",
             "description": "HCI undergraduate research",
             "skills": ["design"]

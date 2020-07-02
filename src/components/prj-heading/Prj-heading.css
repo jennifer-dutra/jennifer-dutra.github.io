@@ -1,0 +1,24 @@
+.container {
+    padding: 5%;
+}
+
+.prj-icon {
+    max-width: 125px;
+}
+
+.desc-txt {
+    font-weight: 500;
+}
+
+.label {
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    padding: 1% 2%;
+    margin: 2% 2% 4% 0%;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+}

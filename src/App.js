@@ -10,6 +10,7 @@ import mail from './assets/icons/mail.svg';
 import menu from './assets/icons/menu.svg';
 import Pulse from 'react-reveal/Pulse';
 import pdf from './Resume-5-2020.pdf';
+import Wilderness from './components/wilderness-adv/Wilderness';
 
 class App extends Component {
   container = React.createRef();
@@ -72,6 +73,7 @@ class App extends Component {
         <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/about' component={About} />
+            <Route path='/wilderness adventure' component={Wilderness} />
         </Switch>
       </div>
 
