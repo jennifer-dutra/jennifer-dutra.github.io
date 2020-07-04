@@ -3,14 +3,61 @@
 }
 
 .prj-icon {
-    max-width: 125px;
+    max-height: 125px;
 }
 
 .desc-txt {
     font-weight: 500;
 }
 
-.label {
+.orange-label {
+    color: var(--orange);
+    background-color: var(--orangeBack);
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    padding: 1% 2%;
+    margin: 2% 2% 4% 0%;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+}
+
+.lavender-label {
+    color: var(--lavender);
+    background-color: var(--lavenderBack);
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    padding: 1% 2%;
+    margin: 2% 2% 4% 0%;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+}
+
+.pink-label {
+    color: var(--pink);
+    background-color: var(--pinkBack);
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    padding: 1% 2%;
+    margin: 2% 2% 4% 0%;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+}
+
+.blue-label {
+    color: var(--blue);
+    background-color: var(--blueBack);
     border-radius: 30px;
     border: none;
     font-weight: 600;

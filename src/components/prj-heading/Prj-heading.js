@@ -18,9 +18,12 @@ class PrjHeading extends Component {
           <Fade delay={200}>
           <div className="tool-list">
                 {this.props.tools.map(element => (
-                  <span className="label">{element}</span>
+                  <span className={`${this.props.color}`}>{element}</span>
                 ))}
           </div>
+          </Fade>
+          <Fade delay={400}>
+            <h4>[coming soon - check back for updates!]</h4>
           </Fade>
       </div>
     );

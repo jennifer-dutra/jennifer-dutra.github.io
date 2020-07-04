@@ -6,7 +6,9 @@
             "icon": "boba-logo",
             "color": "pink-label",
             "description": "on-demand boba delivery application",
-            "skills": ["dev", "design"]
+            "descriptionLong": "an on-demand boba delivery application",
+            "skills": ["dev", "design"],
+            "tools": ["JavaScript", "Python", "React", "Flask", "Firebase", "HTML/CSS"]
          },
 
          {
@@ -15,13 +17,15 @@
             "icon": "ch-logo",
             "color": "lavender-label",
             "description": "planning UCSC's annual hackathon",
-            "skills": ["experience", "design"]
+            "descriptionLong": "my experience running UCSC's annual hackathon",
+            "skills": ["experience", "design"],
+            "tools": ["leadership", "event planning", "ux design"]
          },
 
          {
             "name": "wilderness adventure", 
             "img": "wilderness-cover",
-            "icon": "tech4good",
+            "icon": "wilderness-logo",
             "color": "orange-label",
             "description": "a card game about wilderness survival",
             "descriptionLong": "an original card game about wilderness survival",
@@ -32,10 +36,12 @@
          {
             "name": "tech4good", 
             "img": "tech4good-cover",
-            "icon": "wilderness-logo",
+            "icon": "tech4good",
             "color": "blue-label",
             "description": "HCI undergraduate research",
-            "skills": ["design"]
+            "descriptionLong": "human-computer interaction research at ucsc's tech4good lab",
+            "skills": ["design"],
+            "tools": ["ux design", "social computing", "web development"]
          }
     ]
 }

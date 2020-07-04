@@ -11,6 +11,9 @@ import menu from './assets/icons/menu.svg';
 import Pulse from 'react-reveal/Pulse';
 import pdf from './Resume-5-2020.pdf';
 import Wilderness from './components/wilderness-adv/Wilderness';
+import CruzHacks from './components/cruzhacks/Cruzhacks';
+import MidnightBoba from './components/midnight-boba/Midnight-boba';
+import Tech4Good from './components/tech4good/Tech4Good';
 
 class App extends Component {
   container = React.createRef();
@@ -74,6 +77,9 @@ class App extends Component {
             <Route exact path='/' component={Home} />
             <Route path='/about' component={About} />
             <Route path='/wilderness adventure' component={Wilderness} />
+            <Route path='/cruzhacks' component={CruzHacks} />
+            <Route path='/midnight boba' component={MidnightBoba} />
+            <Route path='/tech4good' component={Tech4Good} />
         </Switch>
       </div>
 

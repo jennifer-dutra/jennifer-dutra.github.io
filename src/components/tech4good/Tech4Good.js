@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import PrjHeading from '../prj-heading/Prj-heading.js';
 import data from '../../data.json';
-import './Wilderness.css';
+import './Tech4Good.css';
 
-class Wilderness extends Component {
+class Tech4Good extends Component {
 
   render() {
     
-    var json = data.projects[2];
+    var json = data.projects[3];
 
     return (
       <div>
@@ -18,4 +18,4 @@ class Wilderness extends Component {
   }
 }
 
-export default Wilderness;
+export default Tech4Good;
