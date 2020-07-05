@@ -6,6 +6,7 @@ import Fade from 'react-reveal/Fade';
 import './About.css';
 import '../home/Home.css';
 import pdf from '../../Resume-5-2020.pdf';
+import ReactImageAppear from 'react-image-appear';
 
 class About extends Component {
   render() {
@@ -36,9 +37,8 @@ class About extends Component {
                 </Fade>
               </div>
               <Fade down delay={300} distance={"0.5em"}>
-                <div className="picture">
-                  <img className="profile-pic" src={profile} alt={"profile picture"}/> 
-                </div>
+                <ReactImageAppear className="profile-pic" src={profile} showLoader={false}
+                 placeholderStyle={{ backgroundColor: '#E1EBFF' }} />
               </Fade>
             </div>
           
