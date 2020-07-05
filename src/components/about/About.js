@@ -38,7 +38,8 @@ class About extends Component {
               </div>
               <Fade down delay={300} distance={"0.5em"}>
                 <ReactImageAppear className="profile-pic" src={profile} showLoader={false}
-                 placeholderStyle={{ backgroundColor: '#E1EBFF' }} />
+                 placeholderStyle={{ maxWidth: '350px',
+                  marginLeft: '20px', borderRadius: '10%', backgroundColor: '#E1EBFF' }} />
               </Fade>
             </div>
           
