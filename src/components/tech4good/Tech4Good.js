@@ -11,7 +11,7 @@ class Tech4Good extends Component {
     var json = data.projects[3];
 
     return (
-      <div>
+      <div className="container">
           <PrjHeading name={json.name} icon={json.icon} tools={json.tools} description={json.descriptionLong} color={json.color}></PrjHeading>
       </div>
     );

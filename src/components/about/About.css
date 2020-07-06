@@ -12,8 +12,9 @@
 }
 
 .profile-pic {
-    max-width: 350px;
-    margin-left: 20%;
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: 10%;
     border: 10px solid var(--blueBack);
     border-radius: 10%;
 }

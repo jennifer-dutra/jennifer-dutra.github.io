@@ -8,10 +8,10 @@ class CruzHacks extends Component {
 
   render() {
     
-    var json = data.projects[1];
+    var json = data.projects[2];
 
     return (
-      <div>
+      <div className="container">
           <PrjHeading name={json.name} icon={json.icon} tools={json.tools} description={json.descriptionLong} color={json.color}></PrjHeading>
       </div>
     );

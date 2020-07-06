@@ -1,6 +1,17 @@
 {
     "projects": [
          {
+            "name": "microsoft", 
+            "img": "microsoft-card",
+            "icon": "microsoft-logo",
+            "color": "orange-label",
+            "description": "summer 2019 internship",
+            "descriptionLong": "summer internship on the Microsoft Word team",
+            "skills": ["experience", "dev"],
+            "tools": ["Script#", "C#", "JavaScript"]
+         },
+
+         {
             "name": "midnight boba", 
             "img": "boba-cover",
             "icon": "boba-logo",
@@ -20,17 +31,6 @@
             "descriptionLong": "my experience running UCSC's annual hackathon",
             "skills": ["experience", "design"],
             "tools": ["leadership", "event planning", "ux design"]
-         },
-
-         {
-            "name": "wilderness adventure", 
-            "img": "wilderness-cover",
-            "icon": "wilderness-logo",
-            "color": "orange-label",
-            "description": "a card game about wilderness survival",
-            "descriptionLong": "an original card game about wilderness survival",
-            "skills": ["design"],
-            "tools": ["interaction design", "graphic design", "adobe illustrator"]
          },
 
          {

@@ -2,3 +2,7 @@
     color: var(--pink);
     background-color: var(--pinkBack);
 }
+
+.container {
+    padding: 5%;
+}

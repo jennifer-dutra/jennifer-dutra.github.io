@@ -37,7 +37,7 @@ class Home extends Component {
 
         <Fade down delay={1700}>
           <div className="portfolio">
-            <h2>portfolio</h2> 
+            <h2>projects</h2> 
           </div>
         </Fade>
 

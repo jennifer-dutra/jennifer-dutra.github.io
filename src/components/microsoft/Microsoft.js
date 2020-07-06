@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade';
+import './Microsoft.css';
 import PrjHeading from '../prj-heading/Prj-heading.js';
 import data from '../../data.json';
-import './Midnight-boba.css';
 
-class MidnightBoba extends Component {
+
+class Microsoft extends Component {
 
   render() {
-    
-    var json = data.projects[1];
 
-    return (
+    var json = data.projects[0];
+
+    return (   
       <div className="container">
           <PrjHeading name={json.name} icon={json.icon} tools={json.tools} description={json.descriptionLong} color={json.color}></PrjHeading>
       </div>
@@ -18,4 +18,4 @@ class MidnightBoba extends Component {
   }
 }
 
-export default MidnightBoba;
+export default Microsoft;

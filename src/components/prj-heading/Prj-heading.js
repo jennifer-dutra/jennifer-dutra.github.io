@@ -22,6 +22,9 @@ class PrjHeading extends Component {
                 ))}
           </div>
           </Fade>
+          <Fade delay={400}>
+            <h4>[coming soon - check back for updates!]</h4>    
+          </Fade>
       </div>
     );
   }

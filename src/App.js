@@ -14,6 +14,7 @@ import Wilderness from './components/wilderness-adv/Wilderness';
 import CruzHacks from './components/cruzhacks/Cruzhacks';
 import MidnightBoba from './components/midnight-boba/Midnight-boba';
 import Tech4Good from './components/tech4good/Tech4Good';
+import Microsoft from './components/microsoft/Microsoft';
 
 class App extends Component {
   container = React.createRef();
@@ -76,7 +77,7 @@ class App extends Component {
         <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/about' component={About} />
-            <Route path='/wilderness adventure' component={Wilderness} />
+            <Route path='/microsoft' component={Microsoft} />
             <Route path='/cruzhacks' component={CruzHacks} />
             <Route path='/midnight boba' component={MidnightBoba} />
             <Route path='/tech4good' component={Tech4Good} />
