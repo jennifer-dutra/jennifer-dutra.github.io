@@ -7,7 +7,7 @@ import './Prj-heading.css';
 class PrjHeading extends Component {
   render() {
     return (
-      <div className="container">
+      <div>
           <Swing delay={800}>
             <img className="prj-icon" src={require('../../assets/images/' + this.props.icon + '.svg')}></img>
           </Swing>
@@ -21,9 +21,6 @@ class PrjHeading extends Component {
                   <span className={`${this.props.color}`}>{element}</span>
                 ))}
           </div>
-          </Fade>
-          <Fade delay={400}>
-            <h4>[coming soon - check back for updates!]</h4>
           </Fade>
       </div>
     );

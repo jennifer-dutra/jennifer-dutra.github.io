@@ -1,0 +1,19 @@
+.container {
+    padding: 5%;
+}
+
+.prj-para {
+    line-height: 2.5em;
+}
+
+.prj-img {
+    max-width: 450px;
+}
+
+.img-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
